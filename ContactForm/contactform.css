@@ -1,0 +1,58 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+.box{
+    display: inline-block;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .1);
+    background: rgb(85, 83, 83);
+    padding: 2rem;
+    width: 100%;
+}
+
+.box1{
+  padding-top: 5%;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.c-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 100%;
+}
+
+.labels{
+  color: rgba(255, 255, 255, 0.596);
+}
+
+.h1{
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    
+    color: #fff;
+    transition: ease-in-out color .15s;
+  }
+  .site-header a:hover {
+    color: #999;
+    text-decoration: none;
+  }
+
