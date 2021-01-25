@@ -45,7 +45,7 @@ if (array_key_exists('email',$_POST)) {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->SMTPAuth = true;
     $mail->Username = 'development@rphdesigns.com';
-    $mail->Password = 'goCubsgo2727!';
+    $mail->Password = '';
     $mail->setFrom('development@rphdesigns.com', 'Michael heesch');
     $mail->addAddress('development@rphdesigns.com', 'RPH');
     $mail->Subject = 'RPH Contact Form';
